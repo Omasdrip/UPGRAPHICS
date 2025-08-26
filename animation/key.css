@@ -1,0 +1,50 @@
+
+
+img{
+  border: 5px solid;
+  margin-top: 70px;
+  margin-left: 80px;
+  
+  animation-duration: 3s;
+
+}
+
+@keyframes shrink{
+  50% {transform: scale(0.5,0.5)}
+}
+
+.pe-a{
+  background-color: brown;
+  border: 2px solid;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  animation-name: colorchange;
+  animation-duration: 3s;
+}
+
+@keyframes colorchange{
+  0%{background-color: brown;}
+  20%{background-color: blanchedalmond;}
+  40%{background-color: rgb(66, 60, 54);}
+  60%{background-color: rgb(62, 6, 75);}
+  80%{background-color: rgb(35, 94, 56);}
+  100%{background-color: rgb(113, 151, 37);}
+}
+
+.hi-hi{
+  background-color: blueviolet;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding-top: 20px;
+  animation-name: glow;
+  animation-duration: 2s;
+}
+
+
+@keyframes glow{
+  50%{box-shadow: 0px 0px 20px rgb(123, 9, 43);}
+}
+
+
